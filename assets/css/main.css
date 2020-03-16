@@ -2089,6 +2089,10 @@ input, select, textarea {
 				white-space: nowrap;
 			}
 
+			.image.thumb#view-site:after {
+				content: 'View Site';
+			}
+
 			.image.thumb:hover:after {
 				opacity: 1.0;
 			}
